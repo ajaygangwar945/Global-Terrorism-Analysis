@@ -44,18 +44,17 @@ https://app.powerbi.com/links/nd67FYSFmX?ctid=e14e73eb-5251-4388-8d67-8f9f2e2d5a
 
 Global-Terrorism-Analysis/
 │
-├── data/
-│ └── terrorism_data.csv.zip
+├── Images/
 │
-├── images/
-│ └── organization logos & flags
+├── Map-File.json
 │
-├── powerbi/
-│ └── Terrorism_Analysis.pbix
+├── README.md
 │
-└── README.md
-
-
+├── Terror.pbix
+│
+├── TerrorCSV.zip
+│
+└── TerroristOrganizationCSV.zip
 
 ---
 
