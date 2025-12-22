@@ -60,8 +60,11 @@ Global-Terrorism-Analysis/
 
 ## 📊 Dataset Information
 
-- Source: Global Terrorism Database (GTD)  
-- Includes details on terrorist organizations, locations, attack types, weapon types, casualties, and year-wise data  
+- Dataset Name: Global Terrorism Database (GTD)
+- Source Platform: Kaggle
+- Original Maintainer: National Consortium for the Study of Terrorism and Responses to Terrorism (START), University of Maryland
+- Time Period Covered: 1970 – 2017
+- File Format: CSV
 
 ---
 
