@@ -77,7 +77,7 @@ Global-Terrorism-Analysis/
 
 ## 📚 References
 
-- Global Terrorism Database (GTD): https://www.start.umd.edu/gtd  
+- Global Terrorism Database (GTD): https://www.kaggle.com/datasets/START-UMD/gtd 
 - Microsoft Power BI Documentation: https://learn.microsoft.com/power-bi  
 - Azure Maps Documentation: https://learn.microsoft.com/azure/azure-maps  
 
