@@ -43,7 +43,7 @@ https://app.powerbi.com/links/nd67FYSFmX?ctid=e14e73eb-5251-4388-8d67-8f9f2e2d5a
 ---
 
 ## 📂 Repository Structure
-
+~~~
 Global-Terrorism-Analysis/  
 ├── Images/                         # Dashboard screenshots  
 ├── Ocr-Input/                      # OCR input files  
@@ -57,7 +57,7 @@ Global-Terrorism-Analysis/
 ├── UncleanedTerror.pbix            # Raw / uncleaned dashboard  
 ├── TerrorCSV.zip                   # Terrorism incidents dataset  
 └── TerroristOrganizationCSV.zip    # Organization dataset  
-
+~~~
 ---
 
 ## 📸 Dashboard Screenshots
