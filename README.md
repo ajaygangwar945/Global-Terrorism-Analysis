@@ -13,12 +13,12 @@ The dashboard supports dynamic exploration using slicers, maps, KPIs, and drill-
 
 ## 🚀 Live Dashboard
 
+View the interactive Power BI dashboard:
 
-<p align="left">
-  <a href="https://app.powerbi.com/links/nd67FYSFmX?ctid=e14e73eb-5251-4388-8d67-8f9f2e2d5a46&pbi_source=linkShare">
-    <img src="https://img.shields.io/badge/Power%20BI-View%20Live-yellow?logo=powerbi"/>
-  </a>
-</p>
+<a href="https://app.powerbi.com/links/nd67FYSFmX?ctid=e14e73eb-5251-4388-8d67-8f9f2e2d5a46&pbi_source=linkShare">
+  <img src="https://img.shields.io/badge/Power%20BI-View%20Live-yellow?logo=powerbi"/>
+</a>
+
 
 ---
 
