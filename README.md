@@ -47,7 +47,7 @@ The dashboard supports dynamic exploration using slicers, maps, KPIs, and drill-
 ---
 
 ## 📂 Repository Structure
-~~~
+```
 Global-Terrorism-Analysis/  
 ├── Images/                         # Dashboard screenshots  
 ├── Ocr-Input/                      # OCR input files  
@@ -61,7 +61,7 @@ Global-Terrorism-Analysis/
 ├── UncleanedTerror.pbix            # Raw / uncleaned dashboard  
 ├── TerrorCSV.zip                   # Terrorism incidents dataset  
 └── TerroristOrganizationCSV.zip    # Organization dataset  
-~~~
+```
 ---
 
 ## 📸 Dashboard Screenshots
