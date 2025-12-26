@@ -1,13 +1,37 @@
-# 🌍 Global Terrorism Analysis Dashboard (Power BI)
+<h1 align="center">🌍 Global Terrorism Analysis Dashboard (Power BI)</h1>
+
+<div align="center">
+
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Data Analysis](https://img.shields.io/badge/Data-Analytics-4CAF50?style=for-the-badge&logo=databricks&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-Measures-512BD4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Azure Maps](https://img.shields.io/badge/Azure-Maps-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Dataset](https://img.shields.io/badge/Dataset-GTD-orange?style=for-the-badge&logo=kaggle&logoColor=white)
+
+</div>
 
 ---
 
 ## 🔎 Project Overview
 
-This project presents an interactive **Power BI dashboard** built using the **Global Terrorism Database (GTD)** to analyze worldwide terrorism incidents.  
-It uncovers meaningful patterns and trends across **years, regions, countries, attack types, terrorist organizations, and casualties**, enabling data-driven insights through rich and interactive visualizations.
+<div align="left">
 
+<img src="https://img.shields.io/badge/Status-Completed-2EA44F?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Maintained-Yes-0969DA?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Category-Data%20Analytics-6F42C1?style=for-the-badge&logo=powerbi&logoColor=white" />
+
+</div>
+
+<p align="justify">
+  
+This project presents an interactive <b>Power BI dashboard</b> built using the <b>Global Terrorism Database (GTD)</b> to analyze worldwide terrorism incidents. It uncovers meaningful patterns and trends across <b>years, regions, countries, attack types, terrorist organizations, and casualties</b>, enabling data-driven insights through rich and interactive visualizations.
+
+</p>
+
+<p align="justify">
 The dashboard supports dynamic exploration using slicers, maps, KPIs, and drill-through analysis.
+</p>
+
 
 ---
 
@@ -15,9 +39,8 @@ The dashboard supports dynamic exploration using slicers, maps, KPIs, and drill-
 
 View the interactive Power BI dashboard:
 
-<a href="https://app.powerbi.com/links/nd67FYSFmX?ctid=e14e73eb-5251-4388-8d67-8f9f2e2d5a46&pbi_source=linkShare">
-  <img src="https://img.shields.io/badge/Power%20BI-View%20Live-yellow?logo=powerbi"/>
-</a>
+[![View Dashboard](https://img.shields.io/badge/Power%20BI-View%20Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/links/nd67FYSFmX?ctid=e14e73eb-5251-4388-8d67-8f9f2e2d5a46&pbi_source=linkShare)
+
 
 
 ---
