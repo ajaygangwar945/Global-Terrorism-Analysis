@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data and Outputs
+Ocr-Output/
+*.log
+*.csv
+!TerroristOrganization.csv
+!CountryFlags.csv
+!Terror.csv
+
+# Large Files
+*.pbix
+*.pptx
+*.docx
+*.pdf
+Map-File.json
+
+# IDEs
+.vscode/
+.idea/
+.gemini/
+.antigravity/
