@@ -32,16 +32,13 @@ This project presents an interactive <b>Power BI dashboard</b> built using the <
 The dashboard supports dynamic exploration using slicers, maps, KPIs, and drill-through analysis.
 </p>
 
-
 ---
 
 ## 🚀 Live Dashboard
 
 View the interactive Power BI dashboard:
 
-[![View Dashboard](https://img.shields.io/badge/Power%20BI-View%20Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/links/nd67FYSFmX?ctid=e14e73eb-5251-4388-8d67-8f9f2e2d5a46&pbi_source=linkShare)
-
-
+[![View Dashboard](https://img.shields.io/badge/Power%20BI-View%20Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=eyJrIjoiNTY4YWQxMGItNGFhMC00ZWQ4LThlZjUtMDY0NWY4OGJkYjdhIiwidCI6ImUxNGU3M2ViLTUyNTEtNDM4OC04ZDY3LThmOWYyZTJkNWE0NiIsImMiOjEwfQ%3D%3D)
 
 ---
 
@@ -70,6 +67,7 @@ View the interactive Power BI dashboard:
 ---
 
 ## 📂 Repository Structure
+
 ```
 Global-Terrorism-Analysis/  
 ├── Images/                         # Dashboard screenshots  
@@ -85,29 +83,34 @@ Global-Terrorism-Analysis/
 ├── TerrorCSV.zip                   # Terrorism incidents dataset  
 └── TerroristOrganizationCSV.zip    # Organization dataset  
 ```
+
 ---
 
 ## 📸 Dashboard Screenshots
 
 ### 🖥️ Overview Page
+
 <p align="center">
   <img src="Images/Overview.png" width="700"/>
 </p>
 <p align="center"><i>High-level summary of global terrorism data showing total attacks, fatalities, wounded, and key KPIs</i></p>
 
 ### 🌍 Global Terrorism Analysis
+
 <p align="center">
   <img src="Images/Global%20Terrorism%20Analysis.png" width="700"/>
 </p>
 <p align="center"><i>Global distribution of terrorist attacks with region-wise and country-wise filtering using interactive maps</i></p>
 
 ### 🇮🇳 Terrorism in India
+
 <p align="center">
   <img src="Images/Terrorism%20in%20India.png" width="700"/>
 </p>
 <p align="center"><i>India-specific analysis highlighting state-wise attack patterns, yearly trends, and impact assessment</i></p>
 
 ### 🧠 Terrorist Organization Analysis
+
 <p align="center">
   <img src="Images/Terrorist%20Organization%20Analysis.png" width="700"/>
 </p>
@@ -160,9 +163,9 @@ This step helped improve data quality prior to visualization.
 
 ## 📚 References
 
-- Global Terrorism Database (GTD): https://www.kaggle.com/datasets/START-UMD/gtd  
-- Power BI Documentation: https://learn.microsoft.com/power-bi  
-- Azure Maps Documentation: https://learn.microsoft.com/azure/azure-maps  
+- Global Terrorism Database (GTD): <https://www.kaggle.com/datasets/START-UMD/gtd>  
+- Power BI Documentation: <https://learn.microsoft.com/power-bi>  
+- Azure Maps Documentation: <https://learn.microsoft.com/azure/azure-maps>  
 
 ---
 
