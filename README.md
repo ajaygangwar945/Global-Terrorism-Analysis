@@ -5,7 +5,7 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Data Analysis](https://img.shields.io/badge/Data-Analytics-4CAF50?style=for-the-badge&logo=databricks&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-Measures-512BD4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Azure Maps](https://img.shields.io/badge/Azure-Maps-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Geospatial Analysis](https://img.shields.io/badge/Geospatial%20Analysis-Squillion%20%7C%20TMap-0078D4?style=for-the-badge&logo=googlemaps&logoColor=white)
 ![Dataset](https://img.shields.io/badge/Dataset-GTD-orange?style=for-the-badge&logo=kaggle&logoColor=white)
 
 </div>
@@ -44,7 +44,7 @@ View the interactive Power BI dashboard:
 
 ## 🧩 Key Features
 
-- 🌍 Interactive geospatial analysis using **Azure Maps**
+- 🌍 Interactive geospatial analysis using **Map by Squillion**, **TMap**, **Filled Map**, and **Maps**
 - 🖼️ Dynamic terrorist organization logos using **GitHub RAW image URLs**
 - 📊 KPI cards displaying **Total Attacks, Fatalities, and Wounded**
 - 📈 Year-wise trend analysis of terrorist activities
@@ -60,7 +60,7 @@ View the interactive Power BI dashboard:
 - Power BI Service  
 - Power Query (ETL & Data Cleaning)  
 - DAX (Calculated Measures & KPIs)  
-- Azure Maps (Geospatial Visualization)  
+- Geospatial Visualization (Map by Squillion, TMap, Filled Map)  
 - CSV Datasets  
 - GitHub (Image Hosting & Version Control)
 
@@ -165,8 +165,7 @@ This step helped improve data quality prior to visualization.
 
 - Global Terrorism Database (GTD): <https://www.kaggle.com/datasets/START-UMD/gtd>  
 - Power BI Documentation: <https://learn.microsoft.com/power-bi>  
-- Azure Maps Documentation: <https://learn.microsoft.com/azure/azure-maps>  
-
+  
 ---
 
 ⭐ *Feel free to explore the dashboard and repository. Feedback and suggestions are welcome!*
