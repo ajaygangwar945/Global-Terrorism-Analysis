@@ -1,4 +1,4 @@
-<img align="center" src="Images/Gemini_Generated_Image.png" width="100%" height="200px"/>
+<img align="center" src="Images/Gemini_Generated_Image.png" width="100%" height="300px"/>
 
 <h1 align="center">🌍 Global Terrorism Analysis Dashboard (Power BI)</h1>
 
