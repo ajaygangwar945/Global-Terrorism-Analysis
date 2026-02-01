@@ -38,7 +38,7 @@ The dashboard supports dynamic exploration using slicers, maps, KPIs, and drill-
 
 ## 🚀 Live Dashboard
 
-View the interactive Power BI dashboard:
+View the interactive Power BI dashboard.
 
 [![View Dashboard](https://img.shields.io/badge/Power%20BI-View%20Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=eyJrIjoiNTY4YWQxMGItNGFhMC00ZWQ4LThlZjUtMDY0NWY4OGJkYjdhIiwidCI6ImUxNGU3M2ViLTUyNTEtNDM4OC04ZDY3LThmOWYyZTJkNWE0NiIsImMiOjEwfQ%3D%3D)
 
