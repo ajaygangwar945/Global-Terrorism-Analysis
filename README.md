@@ -80,6 +80,7 @@ Global-Terrorism-Analysis/
 ├── Map-File.json                   # Custom map configuration  
 ├── Ocr-Extract.py                  # OCR extraction script  
 ├── README.md                       # Project documentation  
+├── requirements.txt                # Python dependencies  
 ├── Terror.pbix                     # Cleaned Power BI dashboard  
 ├── UncleanedTerror.pbix            # Raw / uncleaned dashboard  
 ├── TerrorCSV.zip                   # Terrorism incidents dataset  

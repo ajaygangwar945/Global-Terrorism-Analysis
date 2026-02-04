@@ -1,0 +1,14 @@
+# Python Dependencies for Global Terrorism Analysis - OCR Module
+# Generated: 2026-02-04
+# Security Audit Recommendation: Pin versions to prevent unexpected vulnerabilities
+
+# OCR Processing
+pytesseract>=0.3.10
+
+# Image Processing
+opencv-python>=4.8.0
+
+# Data Manipulation
+pandas>=2.0.0
+
+# Note: 're' and 'os' are Python built-in modules and don't require installation
