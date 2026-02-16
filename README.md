@@ -72,19 +72,20 @@ View the interactive Power BI dashboard.
 
 ```
 Global-Terrorism-Analysis/  
-├── Images/                         # Dashboard screenshots  
-├── Ocr-Input/                      # OCR input files  
-├── Ocr-Output/                     # OCR extracted output  
+├── Images/                         # Project screenshots and organization logos
+├── Ocr-Input/                      # Raw input files for OCR processing
+├── Ocr-Output/                     # Extracted data in CSV format
 │  
-├── CountryFlags.csv                # Country–flag mapping  
-├── Map-File.json                   # Custom map configuration  
-├── Ocr-Extract.py                  # OCR extraction script  
-├── README.md                       # Project documentation  
-├── requirements.txt                # Python dependencies  
-├── Terror.pbix                     # Cleaned Power BI dashboard  
-├── UncleanedTerror.pbix            # Raw / uncleaned dashboard  
-├── TerrorCSV.zip                   # Terrorism incidents dataset  
-└── TerroristOrganizationCSV.zip    # Organization dataset  
+├── CountryFlags.csv                # Country to flag URL mapping
+├── Map-File.json                   # Custom geospatial configuration for Power BI
+├── Ocr-Extract.py                  # Python script for automated data extraction
+├── README.md                       # Project documentation
+├── requirements.txt                # Python dependencies for OCR script
+├── Terror.csv                      # Processed terrorism dataset
+├── Terror.pbix                     # Interactive Power BI dashboard (Main)
+├── TerroristOrganization.csv       # Terrorist organization metadata
+├── UncleanedTerror.pbix            # Initial/Raw Power BI workspace
+└── UncleanedTerror.csv             # Raw dataset (Ignored by Git)
 ```
 
 ---
@@ -133,13 +134,15 @@ Global-Terrorism-Analysis/
 
 ## 🧠 OCR Processing (Supporting Module)
 
-An OCR-based preprocessing module is included to extract and structure uncleaned textual data before dashboard creation.
+The project includes an OCR-based module to extract structured data from unstructured reports or images (like `incident.png`). This allows for local verification of incident details before they are integrated into the main dashboard.
 
-- `Ocr-Input/` contains raw input files  
-- `Ocr-Output/` stores extracted structured data  
-- `Ocr-Extract.py` performs OCR-based extraction and cleaning  
+### Workflow
 
-This step helped improve data quality prior to visualization.
+1. **Input:** Place incident images in `Ocr-Input/`.
+2. **Execution:** Run the script using `python Ocr-Extract.py`.
+3. **Output:** Structured data is saved to `Ocr-Output/IncidentExtracted.csv`.
+
+**Dependencies:** Requires `pytesseract`, `opencv-python`, and `pandas` (listed in `requirements.txt`).
 
 ---
 

@@ -14,11 +14,11 @@ Ocr-Output/
 !Terror.csv
 
 # Large Files
-*.pbix
+UncleanedTerror.csv
+UncleanedTerror.pbix
 *.pptx
 *.docx
 *.pdf
-Map-File.json
 
 # IDEs
 .vscode/
