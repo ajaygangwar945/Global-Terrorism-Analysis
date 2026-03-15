@@ -1,0 +1,85 @@
+================================================================================
+🌍 GLOBAL TERRORISM ANALYSIS PROJECT - DOCUMENTATION
+================================================================================
+
+1. LANGUAGES & TECHNOLOGIES USED
+--------------------------------
+The project utilizes a multi-disciplinary approach combining Data Analysis, 
+Business Intelligence, and Computer Vision.
+
+- Microsoft Power BI:
+  * Why: The primary tool for building interactive, data-driven dashboards. 
+    It allows for high-level summaries and deep-dive analysis.
+  * Where: The main dashboard file (Terror.pbix).
+
+- DAX (Data Analysis Expressions):
+  * Why: Used to create dynamic measures, KPIs, and complex calculations 
+    that respond to user filters.
+  * Where: KPI cards, Year-wise trends, and custom metrics in the Power BI model.
+
+- Power Query (M Language):
+  * Why: Essential for the ETL (Extract, Transform, Load) process. It cleans 
+    unstructured data, handles null values, and reformats datasets for analysis.
+  * Where: Inside the Power BI Desktop "Transform Data" environment.
+
+- Python:
+  * Why: Power BI is great for visualization, but Python handles specialized 
+    tasks like OCR (Optical Character Recognition) more efficiently.
+  * Where: Ocr-Extract.py (Supporting module).
+
+- Regex (Regular Expressions):
+  * Why: To extract specific patterns like Years, Dates, and Group Names 
+    from raw text extracted by OCR.
+  * Where: Used within the Ocr-Extract.py script.
+
+- JSON:
+  * Why: To define custom geospatial boundaries for the Map visualizations.
+  * Where: Map-File.json.
+
+
+2. TOPICS & LOGIC
+------------------
+
+A. Data Processing (ETL Logic)
+- Logic: The raw Global Terrorism Database (GTD) has hundreds of columns. 
+  The Power Query logic filters these to essential ones (Year, Group, 
+  Country, Attack Type, Fatalities, Wounded) and handles missing data.
+
+B. Geospatial Analysis
+- Logic: Uses coordinate data (Latitude/Longitude) and the Map-File.json 
+  to plot incidents on a global scale. Users can click a region to see 
+  localized data instantly.
+
+C. KPI & Trend Analysis
+- Logic: Total counts are aggregated using DAX. Trend logic compares 
+  current year data with previous years to show if terrorism is 
+  increasing or decreasing in specific areas.
+
+D. Terrorist Organization Analysis
+- Logic: Maps organization names to their specific logos (hosted on GitHub) 
+  using URL data categorization in Power BI. It helps in visual identification 
+  of major groups.
+
+E. OCR Extraction (Computer Vision)
+- Logic: Pre-processes images (resizing, grayscale, thresholding) using 
+  OpenCV to prepare them for Tesseract OCR. Once text is extracted, 
+  Regex logic maps the text to known groups, countries, and attack types 
+  to generate a structured CSV.
+
+
+3. FULL WORKING OF THE PROJECT
+-------------------------------
+
+Step 1: The user provides a dataset (Terror.csv) or an incident report image.
+Step 2: If it's an image, the Python OCR script extracts the incident facts.
+Step 3: The Power BI report imports the cleaned CSV files.
+Step 4: Data is modeled with relationships (e.g., linking Terrorist 
+        organizations to their metadata).
+Step 5: Visualizations (Maps, KPI cards, Bar Charts) update dynamically 
+        based on Slicer selections.
+Step 6: The User interacts with the dashboard to discover high-risk regions, 
+        deadliest groups, and historical trends of global terrorism.
+
+================================================================================
+Project Developed for SEM 5 - Data Analytics
+================================================================================
