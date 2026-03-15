@@ -171,8 +171,6 @@ For a deep dive into the specific logic and code implementation, please refer to
 
 ---
 
----
-
 ## 🧠 OCR Processing (Supporting Module)
 
 The project includes an OCR-based module to extract structured data from unstructured reports or images (like `incident.png`). This allows for local verification of incident details before they are integrated into the main dashboard.
