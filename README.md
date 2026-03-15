@@ -58,7 +58,7 @@ View the interactive Power BI dashboard.
 
 ## 🛠️ Tools & Technologies
 
-- **Microsoft Power BI**: Primary tool for building interactive dashboards and data visualization. 
+- **Microsoft Power BI**: Primary tool for building interactive dashboards and data visualization.
 - **Power BI Service**: Cloud-based sharing and collaboration platform for the final dashboard.
 - **Power Query (M Language)**: Used for the **ETL process** (Extract, Transform, Load) to clean and structure raw CSV data.
 - **DAX (Data Analysis Expressions)**: Used to create dynamic **Calculated Measures and KPIs** that respond to filters.
@@ -71,21 +71,24 @@ View the interactive Power BI dashboard.
 ## 🧠 Workflow & Logic
 
 ### 1. Data Processing (ETL)
+
 The original Global Terrorism Database (GTD) contains hundreds of columns. Using **Power Query**, we filter this down to essential analytical dimensions:
+
 - **Spatial:** Country, Region, City, Latitude, Longitude.
 - **Temporal:** Year, Month, Day.
 - **Impact:** Fatalities, Wounded, Property Damage.
 - **Categorical:** Attack Type, Target Type, Terrorist Organization.
 
 ### 2. Analytical Logic (DAX)
+
 We use custom DAX measures to ensure performance and accuracy:
+
 - **Dynamic KPIs:** Measures that calculate totals based on active slicer selections (e.g., `Total Fatalities = SUM(Terror[nkill])`).
 - **Trend Analysis:** Logic to compare year-over-year changes in activity.
 
 ### 3. Geospatial Mapping
-Logic integrates `Map-File.json` with coordinate data to provide a drill-down experience from **Global → Regional → Local** levels.
 
----
+Logic integrates `Map-File.json` with coordinate data to provide a drill-down experience from **Global → Regional → Local** levels.
 
 ---
 
@@ -153,15 +156,16 @@ Global-Terrorism-Analysis/
 
 ## 🔄 Full Project Lifecycle
 
-1.  **Data Ingestion:** Raw datasets (GTD) and OCR-extracted incident data are loaded.
-2.  **Transformation:** Power Query cleans nulls, formats dates, and standardizes group names.
-3.  **Modeling:** Relationships are established between the main dataset and metadata files like `CountryFlags.csv`.
-4.  **Visualization:** Interactive reports are built using maps, trend lines, and KPI cards.
-5.  **Interaction:** Users filter data via slicers and drill-through to specific incidents or regions.
+1. **Data Ingestion:** Raw datasets (GTD) and OCR-extracted incident data are loaded.
+2. **Transformation:** Power Query cleans nulls, formats dates, and standardizes group names.
+3. **Modeling:** Relationships are established between the main dataset and metadata files like `CountryFlags.csv`.
+4. **Visualization:** Interactive reports are built using maps, trend lines, and KPI cards.
+5. **Interaction:** Users filter data via slicers and drill-through to specific incidents or regions.
 
 ---
 
 ## 📝 Detailed Documentation
+
 For a deep dive into the specific logic and code implementation, please refer to the technical documentation:
 📄 **[Project-Working-Details.txt](Project-Working-Details.txt)**
 
